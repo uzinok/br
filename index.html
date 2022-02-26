@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>br</title>
+
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+	<!-- main -->
+	<div class="main">
+		<h1>Почему &lt;br&gt; так себе?</h1>
+
+		<!-- block-1 -->
+		<div class="block block-1">
+
+			<h2>Первый пример</h2>
+
+			<p class="block-1__title">Подпишись на &laquo;спам&raquo;!</p>
+			<p class="block-1__subtitle">
+				Будем присылать с разных e-mail,
+				<br>от нас не избавитесь.
+			</p>
+
+			<p class="block-1__subtitle">
+				Будем присылать с разных e-mail, <span> от нас не избавитесь.</span>
+			</p>
+
+			<style>
+				.block-1__subtitle span {
+					display: inline-block;
+					width: 100%;
+				}
+			</style>
+
+			<form action="" class="block-1__form">
+
+				<input type="text" placeholder="e-mail для получения спама">
+				<button type="submit">подпИсаться</button>
+
+			</form>
+		</div>
+		<!-- /block-1 -->
+
+		<!-- block-2 -->
+		<div class="block block-2">
+
+			<h2>Второй пример</h2>
+
+			<p class="block-2__title">Чем мы хороши?</p>
+
+			<!-- block-2__list -->
+			<ul class="block-2__list">
+
+				<li class="block-2__item">
+					<h3 class="block-2__heading">Много <br> спама!</h3>
+					<p class="block-2__sub-heading">Эй, цирюльникъ,<br> ёжик выстриги, <br> да щетину ряхи сбрей,<br> феном вошь
+						за
+						печь гони!
+					</p>
+				</li>
+
+				<li class="block-2__item">
+					<h3 class="block-2__heading">Не уйдешь!</h3>
+					<p class="block-2__sub-heading">В чащах юга жил-был цитрус... — да,<br> но фальшивый экземпляръ!</p>
+				</li>
+
+				<li class="block-2__item">
+					<h3 class="block-2__heading">Очень крутые абрикосики.</h3>
+					<p class="block-2__sub-heading">Южно-эфиопский грач увёл мышь за хобот <br> на съезд ящериц.</p>
+				</li>
+
+			</ul>
+			<!-- /block-2__list -->
+
+			<!-- block-2__list -->
+			<ul class="block-2__list">
+
+				<li class="block-2__item">
+					<h3 class="block-2__heading">Много <span>спама!</span></h3>
+					<p class="block-2__sub-heading">Эй, цирюльникъ, ёжик&nbsp;выстриги, да&nbsp;щетину ряхи сбрей, феном вошь
+						за
+						печь гони!
+					</p>
+				</li>
+
+				<li class="block-2__item">
+					<h3 class="block-2__heading">Не&nbsp;уйдешь!</h3>
+					<p class="block-2__sub-heading">В&nbsp;чащах юга жил-был цитрус... &mdash;&nbsp;да, но&nbsp;фальшивый
+						экземпляръ!</p>
+				</li>
+
+				<li class="block-2__item">
+					<h3 class="block-2__heading">Очень крутые абрикосики.</h3>
+					<p class="block-2__sub-heading">Южно-эфиопский грач увёл мышь за&nbsp;хобот на&nbsp;съезд ящериц.</p>
+				</li>
+
+			</ul>
+			<!-- /block-2__list -->
+
+			<style>
+				.block-2__heading span {
+					display: inline-block;
+					width: 100%;
+				}
+			</style>
+
+		</div>
+		<!-- /block-2 -->
+
+		<!-- block-3 -->
+		<div class="block block-3">
+
+			<h2>Третий пример</h2>
+
+			<p>
+				Если спросят — Что дороже? <br>
+				Любовь, родители, друзья? <br>
+				Ты молча просто двинь по роже — <br>
+				Такое спрашивать нельзя! <br>
+			</p>
+
+			<p>
+				Если спросят — Что дороже? <br aria-hidden="true">
+				Любовь, родители, друзья? <br aria-hidden="true">
+				Ты молча просто двинь по роже — <br aria-hidden="true">
+				Такое спрашивать нельзя! <br aria-hidden="true">
+			</p>
+		</div>
+		<!-- /block-3 -->
+
+	</div>
+	<!-- /main -->
+</body>
+
+</html>
